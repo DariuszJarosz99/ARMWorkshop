@@ -25,7 +25,6 @@
       },
       "dnsNameforLBIP": {
         "type": "string",
-        "defaultValue": "azure.az",
         "metadata": {
           "description": "DNS for Load Balancer IP"
         }
