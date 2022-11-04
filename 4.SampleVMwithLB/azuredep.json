@@ -5,6 +5,7 @@
        
       "numberOfInstances": {
         "type": "int",
+        "defaultValue": "3",
         "metadata":{
           "description": "Number of created vm instances"
         }
