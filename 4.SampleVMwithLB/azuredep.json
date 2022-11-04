@@ -2,6 +2,13 @@
     "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json",
     "contentVersion": "1.0.0.0",
     "parameters": {
+       
+      "numberOfInstances": {
+        "type": "int",
+        "metadata":{
+          "description": "Number of created vm instances"
+        }
+      },
       "storageAccountName": {
         "type": "string",
         "defaultValue": "Jarosz99PSP",
@@ -102,7 +109,6 @@
       "publicIPAddressType": "Dynamic",
       "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('vnetName'), variables ('subnetName'))]",
       "publicIPAddressID": "[resourceId('Microsoft.Network/publicIPAddresses',parameters('publicIPAddressName'))]",
-      "numberOfInstances": ,
       "lbID": "[resourceId('Microsoft.Network/loadBalancers',parameters('lbName'))]",
       "frontEndIPConfigID": "[concat(variables('lbID'),'/frontendIPConfigurations/LoadBalancerFrontEnd')]",
       "lbPoolID": "[concat(variables('lbID'),'/backendAddressPools/BackendPool1')]",
