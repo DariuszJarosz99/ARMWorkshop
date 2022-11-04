@@ -296,7 +296,7 @@
         "name": "[concat(parameters('vmNamePrefix'), copyindex())]",
         "copy": {
           "name": "virtualMachineLoop",
-          "count": "[variables('numberOfInstances')]"
+          "count": "[parameters('numberOfInstances')]"
         },
         "location": "[resourceGroup().location]",
         "dependsOn": [
