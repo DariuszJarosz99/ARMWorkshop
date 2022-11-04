@@ -4,7 +4,7 @@
     "parameters": {
       "storageAccountName": {
         "type": "string",
-        "defaultValue": "azureStorage",
+        "defaultValue": "Jarosz99PSP",
         "metadata": {
           "description": "Name of storage account"
         }
