@@ -4,28 +4,32 @@
     "parameters": {
       "storageAccountName": {
         "type": "string",
+        "defaultValue": "azureStorage",
         "metadata": {
           "description": "Name of storage account"
         }
       },
       "adminUsername": {
         "type": "string",
+        "defaultValue": "azureuser",
         "metadata": {
           "description": "Admin username"
         }
       },
       "adminPassword": {
         "type": "securestring",
+        "defaultValue": "@Azurepassword",
         "metadata": {
           "description": "Admin password"
         }
       },
-      "dnsNameforLBIP": {
-        "type": "string",
-        "metadata": {
-          "description": "DNS for Load Balancer IP"
-        }
-      },
+      //"dnsNameforLBIP": {
+        //"type": "string",
+        //"defaultValue": "azureStorage",
+        //"metadata": {
+          //"description": "DNS for Load Balancer IP"
+        //}
+      //},
       "vmNamePrefix": {
         "type": "string",
         "defaultValue": "myVM",
