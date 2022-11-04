@@ -23,12 +23,12 @@
           "description": "Admin password"
         }
       },
-     // "dnsNameforLBIP": {
-      //  "type": "string",
-      //  "metadata": {
-      //    "description": "DNS for Load Balancer IP"
-     //   }
-   //   },
+      "dnsNameforLBIP": {
+        "type": "string",
+        "metadata": {
+          "description": "DNS for Load Balancer IP"
+        }
+      },
       "vmNamePrefix": {
         "type": "string",
         "defaultValue": "myVM",
