@@ -15,7 +15,7 @@
         }
     },
     "variables": { 
-        "storageName":"container"
+        "storageName":"fpsa01"
      },
     "functions": [  ],
     "resources": [
