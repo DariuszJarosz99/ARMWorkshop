@@ -4,7 +4,7 @@
     "parameters": {
         "storageName":{
             "type":"string",
-            "defaultValue": "mifurmsa"
+            "defaultValue": "jaroszdariusz99"
         },
         "storageType":{
             "type": "string",
